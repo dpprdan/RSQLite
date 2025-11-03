@@ -1,5 +1,11 @@
 # Changelog
 
+## RSQLite 2.4.3.9013 (2025-11-03)
+
+### Continuous integration
+
+- Loosen timeout on macOS.
+
 ## RSQLite 2.4.3.9012 (2025-10-29)
 
 ### Features

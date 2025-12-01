@@ -1,50 +1,18 @@
 # Changelog
 
-## RSQLite 2.4.4.9006 (2025-11-30)
+## RSQLite 2.4.5.9000 (2025-12-01)
+
+### fledge
+
+- CRAN release v2.4.5
+  ([\#663](https://github.com/r-dbi/RSQLite/issues/663)).
+
+## RSQLite 2.4.5 (2025-11-30)
 
 ### Features
 
 - Upgrade bundled SQLite to 3.51.1
   ([\#661](https://github.com/r-dbi/RSQLite/issues/661)).
-
-## RSQLite 2.4.4.9005 (2025-11-17)
-
-### Continuous integration
-
-- Import from actions-sync, check carefully
-  ([\#659](https://github.com/r-dbi/RSQLite/issues/659)).
-
-## RSQLite 2.4.4.9004 (2025-11-12)
-
-### Continuous integration
-
-- Import from actions-sync, check carefully
-  ([\#657](https://github.com/r-dbi/RSQLite/issues/657)).
-
-## RSQLite 2.4.4.9003 (2025-11-10)
-
-### Continuous integration
-
-- Import from actions-sync, check carefully
-  ([\#655](https://github.com/r-dbi/RSQLite/issues/655)).
-
-## RSQLite 2.4.4.9002 (2025-11-08)
-
-### Continuous integration
-
-- Import from actions-sync, check carefully
-  ([\#653](https://github.com/r-dbi/RSQLite/issues/653)).
-
-## RSQLite 2.4.4.9001 (2025-11-07)
-
-### Features
-
-- Upgrade bundled SQLite to 3.51.0
-  ([\#651](https://github.com/r-dbi/RSQLite/issues/651)).
-
-## RSQLite 2.4.4.9000 (2025-11-06)
-
-- Switching to development version.
 
 ## RSQLite 2.4.4 (2025-11-05)
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## RSQLite 2.4.5.9001 (2025-12-10)
+
+### Features
+
+- Upgrade bundled SQLite to 3.51.1
+  ([\#665](https://github.com/r-dbi/RSQLite/issues/665)).
+
 ## RSQLite 2.4.5.9000 (2025-12-01)
 
 ### fledge

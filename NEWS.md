@@ -1,5 +1,12 @@
 <!-- NEWS.md is maintained by https://fledge.cynkra.com, contributors should not edit this file -->
 
+# RSQLite 2.4.6.9002 (2026-02-26)
+
+## Chore
+
+- Revdepcheck results.
+
+
 # RSQLite 2.4.6.9001 (2026-02-22)
 
 ## Features

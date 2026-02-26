@@ -1,5 +1,17 @@
 # Changelog
 
+## RSQLite 2.4.7 (2026-02-26)
+
+### Features
+
+- Implement
+  [`dbListObjects()`](https://dbi.r-dbi.org/reference/dbListObjects.html)
+  for attached SQLite databases with schema prefix support
+  ([\#689](https://github.com/r-dbi/RSQLite/issues/689),
+  [\#690](https://github.com/r-dbi/RSQLite/issues/690)).
+
+- Enable the percentile extension.
+
 ## RSQLite 2.4.6 (2026-02-05)
 
 ### Features

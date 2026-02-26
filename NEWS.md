@@ -2,19 +2,11 @@
 
 # RSQLite 2.4.7 (2026-02-26)
 
-## fledge
-
-- CRAN release v2.4.6 (#685).
-
 ## Features
 
 - Implement `dbListObjects()` for attached SQLite databases with schema prefix support (#689, #690).
 
 - Enable the percentile extension.
-
-## Chore
-
-- Revdepcheck results.
 
 
 # RSQLite 2.4.6 (2026-02-05)

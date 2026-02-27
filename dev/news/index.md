@@ -1,6 +1,10 @@
 # Changelog
 
-## RSQLite 2.4.6.9001 (2026-02-22)
+## RSQLite 2.4.7.9000 (2026-02-27)
+
+- Switching to development version.
+
+## RSQLite 2.4.7 (2026-02-26)
 
 ### Features
 
@@ -11,13 +15,6 @@
   [\#690](https://github.com/r-dbi/RSQLite/issues/690)).
 
 - Enable the percentile extension.
-
-## RSQLite 2.4.6.9000 (2026-02-06)
-
-### fledge
-
-- CRAN release v2.4.6
-  ([\#685](https://github.com/r-dbi/RSQLite/issues/685)).
 
 ## RSQLite 2.4.6 (2026-02-05)
 

@@ -38,8 +38,8 @@ dbDisconnect(conn, ...)
 
   In previous versions, `SQLite()` took arguments. These have now all
   been moved to
-  [`DBI::dbConnect()`](https://dbi.r-dbi.org/reference/dbConnect.html),
-  and any arguments here will be ignored with a warning.
+  [`dbConnect()`](https://dbi.r-dbi.org/reference/dbConnect.html), and
+  any arguments here will be ignored with a warning.
 
 - drv, conn:
 

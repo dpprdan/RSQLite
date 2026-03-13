@@ -1,5 +1,15 @@
 # Changelog
 
+## RSQLite 2.4.7.9002 (2026-03-13)
+
+### Chore
+
+- Auto-update from GitHub Actions
+  ([\#700](https://github.com/r-dbi/RSQLite/issues/700)).
+
+- Auto-update from GitHub Actions
+  ([\#698](https://github.com/r-dbi/RSQLite/issues/698)).
+
 ## RSQLite 2.4.7.9001 (2026-03-08)
 
 ### Chore

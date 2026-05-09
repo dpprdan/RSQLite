@@ -1,8 +1,12 @@
 # Changelog
 
-## RSQLite 2.4.7 (2026-02-26)
+## RSQLite 3.52.0 (2026-05-09)
 
 ### Features
+
+- Upgrade bundled SQLite to 3.52.0
+  ([\#696](https://github.com/r-dbi/RSQLite/issues/696)), the package
+  version is now aligned with the SQLite version.
 
 - Implement
   [`dbListObjects()`](https://dbi.r-dbi.org/reference/dbListObjects.html)

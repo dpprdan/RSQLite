@@ -1,5 +1,10 @@
 # Changelog
 
+## RSQLite 3.52.0.9001 (2026-05-16)
+
+- Ci: Unify fledge.yaml across cynkratemplate and fledge
+  ([\#86](https://github.com/r-dbi/RSQLite/issues/86)).
+
 ## RSQLite 3.52.0.9000 (2026-05-13)
 
 ### Features

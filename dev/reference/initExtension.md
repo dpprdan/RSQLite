@@ -7,7 +7,10 @@ SQL queries. Extensions must be enabled separately for each connection.
 ## Usage
 
 ``` r
-initExtension(db, extension = c("math", "regexp", "series", "csv", "uuid"))
+initExtension(
+  db,
+  extension = c("math", "regexp", "series", "csv", "uuid", "http")
+)
 ```
 
 ## Arguments
@@ -44,6 +47,20 @@ repository (<https://sqlite.org/src/file?filename=ext/misc/series.c>).
 The `"csv"` extension loads the function `csv()` that can be used to
 create virtual tables, as available through the SQLite source code
 repository (<https://sqlite.org/src/file?filename=ext/misc/csv.c>).
+
+The `"http"` extension registers an HTTP/HTTPS virtual file system (VFS)
+that allows opening remote databases via URI filenames, e.g.,
+"file:https://host/path/db.sqlite?vfs=http&immutable=1". This
+implementation is experimental and not an official SQLite extension; it
+fetches pages on demand using HTTP Range requests and serves reads from
+an in-memory page cache, with an optional full-download fallback
+depending on server support and configuration. It is primarily intended
+for read-only access to small, immutable databases; see
+[`sqliteHttpConfig()`](https://rsqlite.r-dbi.org/dev/reference/sqliteHttpConfig.md)
+and
+[`sqliteRemote()`](https://rsqlite.r-dbi.org/dev/reference/sqliteRemote.md)
+for configuration options and usage examples. Building this extension
+may require libcurl and is optional in RSQLite.
 
 The `"uuid"` extension loads the functions `uuid()`, `uuid_str(X)` and
 `uuid_blob(X)` that can be used to create universally unique
@@ -134,6 +151,6 @@ db <- dbConnect(RSQLite::SQLite())
 RSQLite::initExtension(db, "uuid")
 dbGetQuery(db, "SELECT uuid();")
 #>                                 uuid()
-#> 1 29293ce5-62b1-45a6-8591-55602159b733
+#> 1 eb30b87c-cc2f-4296-9f8f-59464cd13060
 dbDisconnect(db)
 ```

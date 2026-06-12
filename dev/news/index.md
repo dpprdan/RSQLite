@@ -1,5 +1,13 @@
 # Changelog
 
+## RSQLite 3.53.1.9008 (2026-06-12)
+
+### Features
+
+- Optional HTTP/HTTPS VFS for read-only remote databases
+  ([@davidrsch](https://github.com/davidrsch),
+  [\#680](https://github.com/r-dbi/RSQLite/issues/680)).
+
 ## RSQLite 3.53.1.9007 (2026-06-11)
 
 ### Documentation

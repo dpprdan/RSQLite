@@ -1,5 +1,11 @@
 # Changelog
 
+## RSQLite 3.53.3.9003 (2026-07-25)
+
+### Continuous integration
+
+- Lock down `format-suggest` egress (audit → block).
+
 ## RSQLite 3.53.3.9002 (2026-07-24)
 
 ### Bug fixes

@@ -1,5 +1,28 @@
 # Changelog
 
+## RSQLite 3.53.3.9014 (2026-09-29)
+
+### Bug fixes
+
+#### ci
+
+- Restore the custom actions and the `upgrade` workflow
+  ([\#809](https://github.com/r-dbi/RSQLite/issues/809)).
+
+### Chore
+
+- Auto-update from GitHub Actions
+  ([\#811](https://github.com/r-dbi/RSQLite/issues/811)).
+
+### Continuous integration
+
+- Run coverage checks after pkgdown push.
+
+### Uncategorized
+
+- Feat(ci): Render `README.md` and `index.md` in CI
+  (cynkra/cynkratemplate#118).
+
 ## RSQLite 3.53.3.9013 (2026-09-26)
 
 ### Documentation
